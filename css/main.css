@@ -20,20 +20,17 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 43px 51px;
 }
 
 .img-logo{
     height: 33px;
     width: 160px;
-    margin-top: 43px;
-    margin-left: 51px;
-    margin-bottom: 43px;
 }
 
 .nav-list{
     display: flex;
     gap: 40px;
-    margin-right: 70px;
 }
 
 .nav-list_item a{
@@ -43,6 +40,10 @@ body{
     color: #FFFFFF;
 }
 
+.nav-list_item a:hover{
+    border-bottom: 3px solid blue;
+}
+
 #Home{
     color: #118DA8;
 }
@@ -50,27 +51,30 @@ body{
 .container{
     margin: 0 auto;
     padding: 0 70px;
-    width: 1200px;
+    width: 100%;
 }
 
 .header-content{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
 }
 
-.left{
-    position: relative;
+.main-img-header{
+  
 }
-.img-header{
+/* .img-header{
     position: absolute;
     left: -25px;
     top: -20px;
     
-}
+} */
 
 .header-right{
-    padding: 130px 60px;
+    padding: 0 60px;
+    display: inline-block;
+    justify-content: space-between;
+    
+    
 }
 
 .header-title{
@@ -79,17 +83,17 @@ body{
     font-weight: 400;
 }
 
-#next{
-    text-decoration: underline;
+.next{
+    position: relative;
 }
 
-.header-text{
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 90px;
-    margin-bottom: 16px;
+.header::before{
+    content: url(../img/header/Vector\ \(2\).svg);
+    position: absolute;
+    right: 330px;
+    top: 90px;
 }
+
 
 .icons{
     display: flex;
