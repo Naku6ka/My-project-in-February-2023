@@ -7,7 +7,7 @@
 body{
     font-family: 'DM Sans', sans-serif;
     background: #191919;
-   
+    width: 100%;   
 }
 
 .nav{
@@ -23,10 +23,14 @@ body{
     padding: 43px 51px;
 }
 
-.img-logo{
+.logo{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 35px;
     height: 33px;
     width: 160px;
 }
+
 
 .nav-list{
     display: flex;
@@ -34,14 +38,13 @@ body{
 }
 
 .nav-list_item a{
-    display: inline-block;
     font-size: 17px;
     font-weight: 400;
     color: #FFFFFF;
 }
 
 .nav-list_item a:hover{
-    border-bottom: 3px solid blue;
+    border-bottom: 0.5px solid blue;
 }
 
 #Home{
@@ -51,30 +54,21 @@ body{
 .container{
     margin: 0 auto;
     padding: 0 70px;
-    width: 100%;
 }
 
 .header-content{
     display: flex;
-    justify-content: space-between;
 }
 
-.main-img-header{
-  
-}
-/* .img-header{
+.element-decor{
     position: absolute;
-    left: -25px;
-    top: -20px;
-    
-} */
+    top: 95px;
+    margin-left: -25px;
+}
 
 .header-right{
     padding: 0 60px;
-    display: inline-block;
-    justify-content: space-between;
-    
-    
+    margin-top: 270px;
 }
 
 .header-title{
@@ -83,26 +77,37 @@ body{
     font-weight: 400;
 }
 
+.header-text{
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+
 .next{
     position: relative;
+    font-size: 75px;
+}
+
+.strong{
+    font-size: 80px;
 }
 
 .header::before{
     content: url(../img/header/Vector\ \(2\).svg);
     position: absolute;
-    right: 330px;
-    top: 90px;
+    right: 370px;
+    top: 735px;
 }
 
 
 .icons{
     display: flex;
     column-gap : 18px;
-    align-items: center;  
+    align-items: center; 
+    margin-top: 20px; 
 }
 
 .icons-item{
-    transition: 3s;
+    transition: 0.5s;
 }
 
 .icons-item:hover{
@@ -122,6 +127,7 @@ body{
 .episodes-title{
     font-size: 64px;
     font-weight: 400;
+    margin-left: 40px;
     color: #FFFFFF;
 }
 
@@ -129,24 +135,24 @@ body{
     padding: 12px 17px;
     background-color: #118DA8;
     color: #FFFFFF;
+    margin-right: 45px;
     border-radius: 6px;
     font-size: 17px;
     font-weight: 400;
 }
 
 .cards{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 60px;
-    
+    display: block;
+    flex-direction: column-reverse;
 }
 
 .card{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 45px;
+    width: 1300px;
     background-color: #000000;
     padding: 40px;
-    display: flex;
-    justify-content: space-between;
     border-radius: 32px;
     
 }
