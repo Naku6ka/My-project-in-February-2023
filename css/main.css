@@ -235,13 +235,13 @@ body{
 
 .section2-link{
     margin-top: 148px;
-    column-gap: 20px;
 }
 
-.section2-title a{
+.section2-title{
     font-size: 18px;
     font-weight: 400;
     color: #118DA8;
+    margin-top: 20px;
 }
 
 .section2-subtitle{
@@ -266,7 +266,6 @@ body{
 
 .section2-right{
     width: 50%;
-    padding: 100px 0;
 }
 
 
