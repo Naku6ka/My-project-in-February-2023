@@ -8,7 +8,7 @@
 body{
     font-family: 'DM Sans', sans-serif;
     background: #191919;
-    width: 1200px;   
+    width: 100%;   
 }
 
 .nav{
@@ -73,8 +73,8 @@ body{
 .main-img-header::before{
     content: url(../img/header/elements3.svg);
     position: absolute;
-    left: 35px;
-    top: 138px;
+    left: 42px;
+    top: 137px;
 }
 
 .header-right{
@@ -86,7 +86,7 @@ body{
     color: #FFFFFF;
     font-size: 70px;
     font-weight: 400;
-    margin-top: 235px;
+    margin-top: 240px;
 }
 
 .next{
@@ -97,8 +97,8 @@ body{
 .next::before{
     content: url(../img/header/Vector\ \(2\).svg);
     position: absolute;
-    left: 67px;
-    top: 115px;
+    left: -2px;
+    top: 22px;
 }
 
 .strong{
@@ -106,7 +106,7 @@ body{
 }
 
 .header-wrapper{
-    padding: 110px 20px;
+    padding: 90px 20px;
 }
 
 .header-text{
@@ -131,12 +131,16 @@ body{
 
 /* episodes */
 
+.section1_container{
+        margin: 0 auto;
+        padding: 93px 70px 160px 70px;
+}
+
 .episodes-top{
     display: flex;
     justify-content: space-between;
-    margin: 93px 0 64px;
     align-items: center;
-    
+    margin-bottom: 64px;    
 }
 
 .episodes-title{
@@ -162,9 +166,9 @@ body{
 
 .card{
     display: flex;
-    column-gap: 30px;
+    column-gap: 53px;
     background-color: #000000;
-    padding: 40px 61px 40px 40px;
+    padding: 40px;
     border-radius: 32px;
     
     
