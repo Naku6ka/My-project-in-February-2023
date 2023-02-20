@@ -16,9 +16,9 @@ body{
     color: white;    
 }
 
-.nav_container{
-    margin: 0 auto;
-    padding: 0 51px;
+.container{
+    width: 1200px;
+    margin: 0 auto;    
 }
 
 .nav-row{
@@ -42,7 +42,7 @@ body{
     gap: 40px;
 }
 
-.nav-list_item a{
+.nav-list__item a{
     font-size: 17px;
     font-weight: 400;
     color: #FFFFFF;
@@ -56,11 +56,6 @@ body{
     color: #118DA8;
 }
 
-.header_container{
-    margin: 0 auto;
-    padding: 0 70px;
-}
-
 .header-content{
     display: flex;
     margin-top: 40px;
@@ -68,13 +63,14 @@ body{
 
 .main-img-header{
     width: 50%;
+    position: relative;
 }
 
 .main-img-header::before{
     content: url(../img/header/elements3.svg);
     position: absolute;
-    left: 42px;
-    top: 137px;
+    left: -26px;
+    top: -26px;
 }
 
 .header-right{
@@ -131,15 +127,11 @@ body{
 
 /* episodes */
 
-.section1_container{
-        margin: 0 auto;
-        padding: 93px 70px 160px 70px;
-}
-
 .episodes-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 93px;
     margin-bottom: 64px;    
 }
 
@@ -162,16 +154,15 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: 60px;
+    margin-bottom: 160px;
 }
 
 .card{
     display: flex;
     column-gap: 53px;
     background-color: #000000;
-    padding: 40px;
     border-radius: 32px;
-    
-    
+    padding: 40px;  
 }
 
 .card-img{
@@ -223,14 +214,15 @@ body{
 
 /* section2 */
 
-.section2{
-    padding: 100px 70px;
-    height: 943px;
+.container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .section2-content{
     display: flex;
     justify-content: space-between;
+    margin: 100px 0;
 }
 
 .section2-link{
@@ -268,4 +260,138 @@ body{
     width: 50%;
 }
 
+/* section3 */
+
+.section3-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    border-radius: 32px;
+    padding: 60px;
+    margin: 100px 0;
+    height: 387px;
+    position: relative;
+}
+
+.section3-card::before{
+    content: url(../img/section3/IMAGE\ \(6\).png);
+    position: absolute;
+    left: -38px;
+    top: 322px;
+
+}
+
+.section3-left{
+    width: 50%;
+
+}
+
+.section3-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #118DA8;
+}
+
+.section3-title{
+    font-size: 72px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.section3-right{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.input{
+    display: block;
+    width: 522px;
+    height: 82px;
+    margin-bottom: 20px;
+    border: 1px solid #191919;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #191919;
+    border-radius: 6px;
+}
+
+.text{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.section3-button{
+    padding: 9px 15px 10px 19px;
+    background-color: #118DA8;
+    color: #FFFFFFB2;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* section4 */
+
+.section4{
+    margin: 100px 0;
+}
+
+.section4-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.section4-card{
+    padding: 54px 60px 51px 50px;
+    background-color: #000000;
+    border-radius: 32px;
+}
+
+.section4-imgs{
+    gap: 5.89px;    
+}
+
+.section4-text{
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 21.64px;
+}
+
+.section4-title{
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFFB2;
+    margin-top: 19px;
+}
+
+/* footer */
+
+.footer-wrapper{
+    padding: 100px 70px;
+    display: flex;
+}
+
+.logo{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 52px;
+    height: 45.47px;
+    width: 222.82px;
+    margin-bottom: 26.41px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer-right1{
+    display: flex;
+    flex-direction: column;
+        
+}
 
