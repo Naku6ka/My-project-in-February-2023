@@ -219,10 +219,15 @@ body{
     margin: 0 auto;
 }
 
+.section2{
+    margin: 100px 0;
+
+}
+
 .section2-content{
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
+    
 }
 
 .section2-link{
@@ -262,13 +267,17 @@ body{
 
 /* section3 */
 
+.section3{
+    margin: 200px 0;
+}
+
 .section3-card{
     display: flex;
     justify-content: space-between;
     background-color: #000000;
     border-radius: 32px;
     padding: 60px;
-    margin: 100px 0;
+    
     height: 387px;
     position: relative;
 }
@@ -337,7 +346,7 @@ body{
 
 /* section4 */
 
-.ssection4-cards{
+.section4-cards{
     margin: 100px 0;
 }
 
@@ -390,7 +399,7 @@ body{
 /* footer */
 
 .footer{
-    margin: 100px 0;
+    margin: 200px 0 127px 0;
 }
 
 .footer-wrapper{
@@ -410,30 +419,46 @@ body{
 
 .footer-right{
     display: flex; 
-    gap: 100px;   
+    gap: 60px;   
        
 }
 
 .footer-right__column1{
     display: flex;
     flex-direction: column;
-               
+                   
 }
 
 .footer-right__column2{
     display: flex;
     flex-direction: column;
-          
+    
 }
 
 .footer-nav__list{
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
 .footer-nav-list__item a{
     font-size: 17px;
     font-weight: 400;
-    color: #FFFFFF;   
+    color: #FFFFFF;     
       
 }
+
+@media(max-width:620px){
+/* nav */
+/* .nav-row{
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 35px;
+} */
+
+
+}
+
 
