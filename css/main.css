@@ -449,16 +449,59 @@ body{
 }
 
 @media(max-width:620px){
-/* nav */
-/* .nav-row{
-    justify-content: space-around;
+.nav-row{
+    padding: 43px 30px;
+}
+.nav-list__item a{
+    font-size: 25px;
 }
 
-.logo{
-    font-size: 35px;
-} */
-
-
+.header{
+    padding: 0 40px;
 }
 
+.episodes-top{
+    padding: 0 40px;
+}
+
+.cards{
+    padding: 0 40px;
+}
+
+.section2-content{
+    padding: 0 40px;
+    
+}
+
+.section2-right{
+    width: 45%;
+}
+
+.section3{
+    margin: 100px 0;
+}
+
+.section3-card{
+    margin: 30px 50px;
+    height: 330px;
+    
+}
+
+.section3-card::before{
+    content: url(../img/section3/IMAGE\ \(6\).png);
+    position: absolute;
+    left: -25px;
+    top: 280px;
+}
+
+.section4-cards {
+    padding: 0 40px;
+}
+
+.footer{
+    margin: 100px;
+}
+}
+
+@media(max-width:425px){
 
